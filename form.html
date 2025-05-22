@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first practice Website</title>
+</head>
+<body>
+    <h1>Introduction</h1>
+    <p>I am Ayedast. I am a website developer. My hobby is reading valuable material. I want to be the most successful woman of my family. I am very hardworking. I behave with my teammates very nicely. My result in teamwork is very positive and encouraging.</p>
+    <h2>Who am I?</h2>
+    <p>I am a determined girl who believes in the power of hard work. Every challenge I face becomes a stepping stone toward my goals. While others rest, I push forward, driven by passion and purpose. My dedication inspires everyone around me to strive for their best.</p>
+    <h3>My goals</h3>
+    <ol>
+        <li>Help others</li>
+        <li>Earn money</li>
+        <li>Recognize my identity</li>
+        <li>Always ready to accept new challenges</li>
+        <li>Emotionally strong</li>
+        <li>As clever as a fox</li>
+    </ol>
+    <h4>Professional Background</h4>
+    <p>I passed my intermediate with excellent marks. Then I wanted to join medical college, but I realized that I should go into the IT field, so now I am on the way to my destination.</p>
+    <h5>Personality</h5>
+    <p>The personality of a successful businesswoman is often marked by confidence, resilience, and strong leadership. She is goal-oriented and highly motivated, with the ability to make tough decisions and adapt quickly to change. Effective communication and emotional intelligence help her build relationships and lead teams. Above all, she is driven by vision and purpose, balancing ambition with integrity.</p>
+    
+    <div>
+        <h1>Registration form</h1>
+        <form action="/register" method="post">
+            <label for="fname">Your name</label>
+            <input type="text" id="fname" name="fname" placeholder="Name"><br><br>
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="Optional"><br><br>
+            <label for="email">Email:&nbsp;</label>
+            <input type="email" id="email" name="email" placeholder="Email"><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password"><br><br>
+            <label for="confirm_password">Confirm password</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password"><br><br>
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="profile_pic">Upload Profile Picture:</label><br>
+            <input type="file" id="profile_pic" name="profile_pic" accept="image/*"><br><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">Select</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="india">India</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
